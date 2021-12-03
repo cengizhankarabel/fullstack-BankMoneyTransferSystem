@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BankOfRevature</title>
+</head>
+
+<body>
+
+    <hr />
+    <h1>Bank web-ui</h1>
+    <hr />
+
+    <div class="container">
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+                <form>
+                <a class="navbar-brand" href="./index.html">Show Transaction</a>
+                </form>
+            </div>
+          </nav>
+    </div>
+
+
+    <hr />
+    <div class="container">
+        <div class="alert alert-info">
+            <div class="d-flex justify-content-evenly">
+                <input id="receiverAccount" class="form-control-lg" type="text" placeholder="From">
+                <input id="senderAccount" class="form-control-lg" type="text" placeholder="To eg.REXXXXX">
+                <input id="transferAmount" class="form-control-lg" type="text" placeholder="Amount eg.100.00">
+                <button id="transferMoney" type="button" class="btn btn-secondary btn-lg">Transfer</button>
+            </div>
+        </div>
+
+        <div>
+            <ul id="transfer-list">  </ul>
+        </div>
+    </div>
+</body>
+
+</html>
